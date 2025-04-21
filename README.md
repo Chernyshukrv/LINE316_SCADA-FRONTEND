@@ -22,9 +22,26 @@
 
 • Содержит кнопку включения и выключения автонавигации, которая обеспечивает автоматическое переключение экрана в зависимости от текущей операции на установке
 
-![main](https://github.com/user-attachments/assets/7abdd408-b429-4b59-af7a-d019d846034a)
+![main](https://github.com/user-attachments/assets/b2af6493-645d-4032-83ac-8a7934016016)
 
-![processing](https://github.com/user-attachments/assets/393f9762-ad15-410e-87cb-a2499a38607d)
-![grip](https://github.com/user-attachments/assets/8ba92567-0c79-4a2d-a182-60a2e65ff947)
+
+### Processing station
+• Содержит 3 индикатора состояния станции: перемещение заготовки, определение положения, фиксирования заготовки, сверление 
+
+• Содержит 3 индикатора цвета поступившей фишки - красный, черный, серебристый
+
+![processing](https://github.com/user-attachments/assets/f10b9ad7-0d65-4cc8-8f14-cf5a58ecb676)
+
+### Handling station
+• Содержит 2 индикатора положения гриппера - наверху, внизу. 
+
+• Содержит 2 индикатора состояния гриппера - открыт, закрыт.
+
+• Содержит визуализация положения гриппера - магазин, упаковка, сортировка. 
+
+![grip](https://github.com/user-attachments/assets/462473f1-c925-49fb-a734-4801e051007f)
+
+
+
 ![pack](https://github.com/user-attachments/assets/bd73a06f-2eee-4d02-af2c-4f682327500f)
 ![sort](https://github.com/user-attachments/assets/51d9da9b-7e31-407c-adce-824aca708e9d)
