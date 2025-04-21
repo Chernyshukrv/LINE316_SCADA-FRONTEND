@@ -1,4 +1,6 @@
-# LINE316_SCADA-FRONTEND
+# SCADA – Система для модели промышленной линии
+
+
 ![ms](https://github.com/user-attachments/assets/4c4771f1-f526-45cd-979e-67b3e5664e60)
 ![processing](https://github.com/user-attachments/assets/393f9762-ad15-410e-87cb-a2499a38607d)
 ![grip](https://github.com/user-attachments/assets/8ba92567-0c79-4a2d-a182-60a2e65ff947)
