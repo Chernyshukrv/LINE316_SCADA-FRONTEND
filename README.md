@@ -50,7 +50,7 @@
 
 - Содержит кнопку включения и выключения автонавигации, которая обеспечивает автоматическое переключение экрана в зависимости от текущей операции на установке
 
-![main](https://github.com/user-attachments/assets/b2af6493-645d-4032-83ac-8a7934016016)
+  ![main](https://github.com/user-attachments/assets/ea005af5-9b76-45d8-aca0-4134ca90d8a3)
 
 
 ### Экран "Обработка"
@@ -65,9 +65,8 @@
     - Red
     - Black
     - Silvery
+  
 
-
-https://github.com/user-attachments/assets/713ffdac-7234-46f1-b67b-b57a2ab21700
 
 
 ![processing](https://github.com/user-attachments/assets/f10b9ad7-0d65-4cc8-8f14-cf5a58ecb676)
