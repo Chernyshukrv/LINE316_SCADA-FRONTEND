@@ -93,7 +93,8 @@
 
 - Содержит визуализацию смены состояний работы
  
-![obr](https://github.com/user-attachments/assets/b4d3ae3e-252b-45e7-957a-8c6c4d42cd6d)
+![ypak](https://github.com/user-attachments/assets/b8e3b702-1e9c-4b00-9ae1-ee1305aaaaeb)
+
 
 
 ### Экран "Сортировка" 
