@@ -91,9 +91,10 @@
     - packing_output_6_fix_box_tongue
     - packing_output_7_pack_box
 
-- Содержит визуализацию смены состояний работы 
+- Содержит визуализацию смены состояний работы
+ 
+![obr](https://github.com/user-attachments/assets/b4d3ae3e-252b-45e7-957a-8c6c4d42cd6d)
 
-![pack](https://github.com/user-attachments/assets/440f3902-4064-4826-ac4b-f2912bc04411)
 
 ### Экран "Сортировка" 
 - Содержит счетчики отсортированных фишек - количество серебрянных, красных, черных. 
