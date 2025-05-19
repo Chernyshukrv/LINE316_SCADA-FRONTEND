@@ -67,9 +67,8 @@
     - Silvery
   
 
+![obr](https://github.com/user-attachments/assets/6ac3a019-5abb-46aa-a3df-02f21c6f445c)
 
-
-![processing](https://github.com/user-attachments/assets/f10b9ad7-0d65-4cc8-8f14-cf5a58ecb676)
 
 ### Экран "Гриппер"
 - Содержит 2 индикатора положения гриппера - наверху, внизу. На вход получает соответствующий тег:
