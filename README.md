@@ -66,6 +66,10 @@
     - Black
     - Silvery
 
+
+https://github.com/user-attachments/assets/713ffdac-7234-46f1-b67b-b57a2ab21700
+
+
 ![processing](https://github.com/user-attachments/assets/f10b9ad7-0d65-4cc8-8f14-cf5a58ecb676)
 
 ### Экран "Гриппер"
