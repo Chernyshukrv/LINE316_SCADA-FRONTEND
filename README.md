@@ -120,6 +120,12 @@
 
 ![IMG_sort](https://github.com/user-attachments/assets/7629bad8-7954-470c-940c-d1093e0d5548)
 
+Программа написана на языке ST
+
+БЛОК-схема, изображающая логику работы впомогательной программы: 
+
+![sort shem](https://github.com/user-attachments/assets/deff9dcb-6803-47af-902e-f7cc780c65f6)
+
 
 
 ## Тестирование полученной SCADA-системы
