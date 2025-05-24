@@ -82,7 +82,9 @@
     - handling_input_2_gripper_at_start
     - handling_input_1_gripper_at_packing_station
     - handling_input_3_gripper_at_right
-![grip](https://github.com/user-attachments/assets/462473f1-c925-49fb-a734-4801e051007f)
+      
+![IMG_grip](https://github.com/user-attachments/assets/b3209a50-d329-402c-a9e7-2425fdadb7de)
+
 
 ### Экран "Упаковка" 
 - Содержит индикаторы последовательности работы станции: коробку толкнули, крышка зафиксирована, боковые язычки зафиксированы, шайба закрыта в коробке. На вход получает соответствующие теги:
@@ -109,8 +111,9 @@
     - sorting_input_3_box_on_conveyor
     - sorting_input_4_box_is_down
 
+![IMG_sort](https://github.com/user-attachments/assets/7629bad8-7954-470c-940c-d1093e0d5548)
 
-![sort](https://github.com/user-attachments/assets/41126ecd-9d22-4ba3-9ac1-bf343e0dcc3b)
+
 
 ## Тестирование полученной SCADA-системы
 
