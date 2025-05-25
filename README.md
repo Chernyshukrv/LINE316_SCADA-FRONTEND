@@ -1,4 +1,22 @@
 # SCADA – Система для модели промышленной линии
+
+## Авторы 
+
+Баранова Варвара 
+
+Попова Анна
+
+Чернышук Роман
+
+Го Тэнъюэ (Григорий)
+
+Руководитель: 
+
+**Куклин Егор Вадимович**
+
+
+
+
 ## Описание проекта
 Цель проекта - проектирование SCADA – системы для обеспечения ЧМИ модели по обработке и фасовке фишек, включающей в себя четыре ПЛК.
 
@@ -19,20 +37,20 @@
 ## Сведения об установке
 Установка производства Festo включает в себя четыре части, к каждой из которых подключен отдельный программируемый логический контроллер:
 
-- Processing station: 
+- **Processing station:** 
   - Круговой конвейер
   - Цилиндрическое сверло
   - Датчик определения цвета фишки
   - Датчик определения положения фишки
 
-- Handling station: 
+- **Handling station:** 
   - Манипулятор с захватом для переноса фишек и коробок
   - Датчики нажима для определения положения
 
-- Packing station: 
+- **Packing station:** 
   - Примитивные манипуляторы для сложения клапанов коробки
 
-- Sorting station: 
+- **Sorting station:** 
   - Конвейер
   - Скаты для каждого цвета фишки
   - Толкатели
@@ -56,15 +74,15 @@
 ### Экран "Обработка"
 
 - Содержит 3 индикатора состояния станции: перемещение заготовки, определение положения, фиксирования заготовки, сверление. На вход получает соответствующие теги:
-    - processing_output_1_rotate_carousel
-    - processing_input_6_hole_detected
-    - processing_output_4_fix_workpiece
-    - processing_output_0_drill
+    - ```processing_output_1_rotate_carousel```
+    - ```processing_input_6_hole_detected```
+    - ```processing_output_4_fix_workpiece```
+    - ```processing_output_0_drill```
 
 - Содержит 3 индикатора цвета поступившей фишки - красный, черный, серебристый. На вход получает соответствующие теги:
-    - Red
-    - Black
-    - Silvery
+    - ```Red```
+    - ```Black```
+    - ```Silvery```
   
 
 ![obr](https://github.com/user-attachments/assets/6ac3a019-5abb-46aa-a3df-02f21c6f445c)
@@ -72,16 +90,16 @@
 
 ### Экран "Гриппер"
 - Содержит 2 индикатора положения гриппера - наверху, внизу. На вход получает соответствующий тег:
-    - handling_input_4_gripper_down_pack_lvl
+    - ```handling_input_4_gripper_down_pack_lvl```
 
 - Содержит 2 индикатора состояния гриппера - открыт, закрыт.На вход получает соответствующий тег:
-    - handling_output_6_grippper_to_open
+    - ```handling_output_6_grippper_to_open```
 
 - Содержит визуализация положения гриппера - магазин, упаковка, сортировка. На вход получает соответствующие теги:
   
-    - handling_input_2_gripper_at_start
-    - handling_input_1_gripper_at_packing_station
-    - handling_input_3_gripper_at_right
+    - ```handling_input_2_gripper_at_start```
+    - ```handling_input_1_gripper_at_packing_station```
+    - ```handling_input_3_gripper_at_right```
       
 ![IMG_grip](https://github.com/user-attachments/assets/b3209a50-d329-402c-a9e7-2425fdadb7de)
 
@@ -95,10 +113,10 @@
 
 ### Экран "Упаковка" 
 - Содержит индикаторы последовательности работы станции: коробку толкнули, крышка зафиксирована, боковые язычки зафиксированы, шайба закрыта в коробке. На вход получает соответствующие теги:
-    - packing_output_4_push_box
-    - packing_output_5_fix_box_upper_side
-    - packing_output_6_fix_box_tongue
-    - packing_output_7_pack_box
+    - ```packing_output_4_push_box```
+    - ```packing_output_5_fix_box_upper_side```
+    - ```packing_output_6_fix_box_tongue```
+    - ```packing_output_7_pack_box```
 
 - Содержит визуализацию смены состояний работы
  
@@ -110,13 +128,13 @@
 - Содержит счетчики отсортированных фишек - количество серебрянных, красных, черных. 
 
 - Содержит индикатор цвета фишки. На вход получает соответствующие переменные, образованные из тегов:
-    - Black
-    - Silver
-    - Red 
+    - ```Black```
+    - ```Silver```
+    - ```Red``` 
 
 - Содержит визуализацию сортировки фишек.
-    - sorting_input_3_box_on_conveyor
-    - sorting_input_4_box_is_down
+    - ```sorting_input_3_box_on_conveyor```
+    - ```sorting_input_4_box_is_down```
 
 ![IMG_sort](https://github.com/user-attachments/assets/7629bad8-7954-470c-940c-d1093e0d5548)
 
