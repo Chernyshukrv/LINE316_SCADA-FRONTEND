@@ -168,7 +168,8 @@ https://github.com/anya-popova/LINE316_SCADA_PYTHON_OPCUA
 ![image](https://github.com/user-attachments/assets/513b4690-8c71-448e-a756-64edf01a8d4d)
 
 Решив эту серию проблем, мы можем успешно запустить и затем импортировать проект，И сделать так, чтобы он отображался в порту браузера 8080
-![image](https://github.com/user-attachments/assets/e6427505-39f1-4aff-b7ee-8582c83c16b7)
+![image](https://github.com/user-attachments/assets/ef23b1de-fa50-44a8-827b-5aed61f3193e)
+
 
 
 
