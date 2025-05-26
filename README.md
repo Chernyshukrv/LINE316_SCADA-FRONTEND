@@ -178,7 +178,7 @@ https://github.com/anya-popova/LINE316_SCADA_PYTHON_OPCUA
 ![image](https://github.com/user-attachments/assets/e409f336-7bbb-495a-b450-cf0a7ef2c6dc)
 
 
-Решив эту серию проблем, мы сможем успешно запустить и импортировать проект через MasterSCADA, после чего он отобразится в браузере на порту 8080.
+Решив эту серию проблем, можно успешно запустить и импортировать проект через MasterSCADA, после чего он отобразится в браузере на порту 8080.
 
 ![image](https://github.com/user-attachments/assets/1d022803-bda0-407b-9fcc-fed53bfe28c2)
 
