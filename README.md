@@ -162,9 +162,11 @@ https://github.com/anya-popova/LINE316_SCADA_PYTHON_OPCUA
 ![image](https://github.com/user-attachments/assets/20f4ee9a-45ef-47c6-9e40-f3c1f1284e3c)
 
 На рисунке показано, что nginx не может быть запущен корректно, а указанный каталог не извлекается должным образом. Решение этой проблемы — создать еще один виртуальный каталог и поместить в него соответствующие директории nginx. Кроме того, следует откорректировать соответствующие пути в Dockerfile и пути запуска.
+
 ![image](https://github.com/user-attachments/assets/ef6cdc42-e2d5-4f75-ac6a-df6842c45244)
 
 Кроме того, при загрузке проекта из MasterSCADA в Docker-контейнер возникла проблема с несовместимостью версий — "исполнительная система устарела". Поэтому при сборке контейнера необходимо использовать версию MasterPLC соответствующую версии МasterSCADA.
+
 ![image](https://github.com/user-attachments/assets/f1644c4b-f3a8-42eb-b60d-fef048fbf2d1)
 
 
@@ -172,11 +174,14 @@ https://github.com/anya-popova/LINE316_SCADA_PYTHON_OPCUA
 Порт 8080 используется для доступа к веб-интерфейсу через прокси-сервер nginx, работающий внутри контейнера.
 Порт 31550 — это внутренний порт, на котором запущена служба MasterPLC.
 Особое внимание необходимо уделить корректной настройке IP-адреса.
+
 ![image](https://github.com/user-attachments/assets/e409f336-7bbb-495a-b450-cf0a7ef2c6dc)
 
 
 Решив эту серию проблем, мы сможем успешно запустить и импортировать проект через MasterSCADA, после чего он отобразится в браузере на порту 8080.
-![image](https://github.com/user-attachments/assets/e6427505-39f1-4aff-b7ee-8582c83c16b7)
+
+![image](https://github.com/user-attachments/assets/1d022803-bda0-407b-9fcc-fed53bfe28c2)
+
 
 
 
