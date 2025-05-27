@@ -187,6 +187,7 @@ https://github.com/anya-popova/LINE316_SCADA_PYTHON_OPCUA
 ![image](https://github.com/user-attachments/assets/1d022803-bda0-407b-9fcc-fed53bfe28c2)
 
 После загрузки проекта MasterSCADA в MasterPLC веб-интерфейс становится доступен. Однако мы столкнулись с проблемой: при остановке и последующем запуске контейнера можно заметить ошибку, что проект не запускается автоматически, веб-интерфейс больше не отображается.
+
 ![image](https://github.com/user-attachments/assets/2fda6751-2d68-4e66-9878-f8934869dddf)
 
 ![image](https://github.com/user-attachments/assets/076488f7-03ee-45cf-82a0-bb50d26f7bcf)
