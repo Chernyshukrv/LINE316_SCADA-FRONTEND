@@ -183,9 +183,6 @@ https://github.com/anya-popova/LINE316_SCADA_PYTHON_OPCUA
 - Создание виртуальньного каталога:
   
   ```mkdir -p /opt/mplc4/nginx/sbin/```
-- Связь его с реальным расположением Nginx через симлинк:
-  
-  ```ln -s /usr/sbin/nginx /opt/mplc4/nginx/sbin/nginx```
 - Проверка прав:
   
   ```chmod +x /opt/mplc4/nginx/sbin/nginx```
